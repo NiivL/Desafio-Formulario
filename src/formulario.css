@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-image: url(img/backgroud.png);
+    background-repeat: repeat-x;
+    background-size: 60vh;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+section.content-text{
+    width: 350px;
+    height: 111px;
+}
+
+section.content-text p{
+    color: white;
+}
+
+h1{
+    color: white;
+    size: 20px;
+    font-weight: 900;
+}
+
+section.content-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    width: 340px;
+    height: 378px;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea, button {
+    padding: 5px;
+    margin: 10px;
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+input.input-menssagem{
+    height: 100px;
+}
+
+.btn-enviar{
+    border: none;
+    background: #3CCC87;
+    margin-top: 20px;
+
+}
+
+
+.info-obrigatorio , p {
+    size: 15px;
+    line-height: 17.58px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+span{
+    width: 100%;
+    color: #F52E2E;
+    font-weight: 400;
+    font-size: 8px;
+    display: none;
+}
+
+.showTag{
+    display: block;
+}
+
+.border-erro{
+    border: 2px solid #F52E2E;
+}
+
+.border-digitando{
+    border: 1px solid #00C22B;
+}
+
+
